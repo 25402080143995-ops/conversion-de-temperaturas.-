@@ -4,15 +4,17 @@ proyecto en equipo, al que convierta las diferentes temperaturas a diferentes gr
 using namespace std;
 
 int main() {
-    float celsius, reamur;
-
-    cout << "Ingresa la temperatura en grados Celsius: ";
-    cin >> celsius;
-
-    // Fórmula: Réaumur = Celsius * 0.8
-    reamur = celsius * 0.8;
-
-    cout << "La temperatura en grados Reamur es: " << reamur << endl;
+    float celsius,rankine,kelvin,reamur,fahrenheit;
+    cout<<"escribir el numero de la operacion que necesitas" <<endl;
+    int op;
+    cout<<"1 convertir celsius a rankine"<<endl;
+    cout<<"2 convertir celsius a fahrenheit"<<endl;
+    cout<<"3 celsius a kelvin"<<endl;
+    cout<<"4 convertir celsius a reamur"<<endl;
+    
+    cin>>op;
+    cout<<"introducir celsius:";
+    cin>>celsius;
 
     return 0;
 }
