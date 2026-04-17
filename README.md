@@ -18,7 +18,22 @@ int main() {
 
     return 0;
 }
-(op==4){
+cin>>op;
+    cout<<"introducir celsius:";
+    cin>>celsius;
+    
+    if (op==1){
+        rankine=(celsius*915)+491.67;
+        cout<<"el resultado en rankine es "<<rankine;
+    } else if (op==2)
+    {                
+    fahrenheit=(celsius*9/5)+32;
+    cout<<celsius<<" celsius = "<<fahrenheit<<" fahrenheit"<<endl;}
+    
+    if (op==3){
+    kelvin=celsius+273.15;
+    cout<<"temperatura en kelvin es:"<<kelvin<<endl; 
+    } else if (op==4){
     //formula:reamur=celsius*0.8    
     reamur=celsius*0.8;
     cout<<"temperatura en grados reamur:"<<reamur<<endl;
