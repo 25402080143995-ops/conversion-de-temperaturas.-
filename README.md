@@ -18,7 +18,8 @@ int main() {
 
     return 0;
 }
-if (op==3){
-    kelvin=celsius+273.15;
-    cout<<"temperatura en kelvin es:"<<kelvin<<endl; 
-    } else if
+(op==4){
+    //formula:reamur=celsius*0.8    
+    reamur=celsius*0.8;
+    cout<<"temperatura en grados reamur:"<<reamur<<endl;
+    } 
