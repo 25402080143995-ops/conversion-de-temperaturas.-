@@ -18,3 +18,7 @@ int main() {
 
     return 0;
 }
+(op==2)
+    {                
+    fahrenheit=(celsius*9/5)+32;
+    cout<<celsius<<" celsius = "<<fahrenheit<<" fahrenheit"<<endl;}
