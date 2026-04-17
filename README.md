@@ -18,7 +18,7 @@ int main() {
 
     return 0;
 }
-(op==2)
-    {                
-    fahrenheit=(celsius*9/5)+32;
-    cout<<celsius<<" celsius = "<<fahrenheit<<" fahrenheit"<<endl;}
+if (op==3){
+    kelvin=celsius+273.15;
+    cout<<"temperatura en kelvin es:"<<kelvin<<endl; 
+    } else if
