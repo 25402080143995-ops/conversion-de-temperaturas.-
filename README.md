@@ -18,11 +18,7 @@ int main() {
 
     return 0;
 }
-
-cin>>op;
-cout<<"introducir celsius: " ;
-cin>>celsius ;
-if (op==1){
-rankine=(celsius*915)+441.67;
-cout<<"el resultado en rankine es " <<rankine;
-} else if
+(op==2)
+    {                
+    fahrenheit=(celsius*9/5)+32;
+    cout<<celsius<<" celsius = "<<fahrenheit<<" fahrenheit"<<endl;}
