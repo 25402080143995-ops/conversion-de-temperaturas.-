@@ -18,3 +18,8 @@ int main() {
 
     return 0;
 }
+(op==4){
+    //formula:reamur=celsius*0.8    
+    reamur=celsius*0.8;
+    cout<<"temperatura en grados reamur:"<<reamur<<endl;
+    } 
